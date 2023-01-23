@@ -1,0 +1,2 @@
+estimator,configuration,feature_selection,precision,recall,f1-measure,auc-roc,brier score
+SupportVectorMachine,{'C': 0.1},all,0.2280393534785664,0.9297994269340976,0.36625282167042894,0.7188199643631061,0.4351026733824099
