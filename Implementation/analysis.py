@@ -216,9 +216,8 @@ def get_scores_info():
             'std_score']
 
 
-def save_data(name, df):
-    # read from csv
-    path = name+'.csv'
+def save_data(path, df):
+    # save to csv
     df.to_csv(path, index=False)
 
 
@@ -255,12 +254,13 @@ def run(project):
     df = calculate_scores(configurations, oversampled_datasets, selected_testing, models)
     print(df)
     # Save data
-    save_data(project.value[0], df)
+    save_path = 'resaults/designite/' + project.value[0] + '.csv'
+    save_data(save_path, df)
 
 
 if __name__ == "__main__":
     projects = list(ProjectName)
-    print(projects[0])
-    run(projects[0])
+    print(projects[13])
+    run(projects[13])
     # with Pool() as p:
     #     p.map(run, projects)
