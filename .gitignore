@@ -1,5 +1,9 @@
 \venv
+
 datasets\
+datasets\*
+datasets/
+datasets/*
 
 
 .env
