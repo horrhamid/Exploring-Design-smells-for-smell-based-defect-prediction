@@ -1,0 +1,9 @@
+0
+UnnecessaryAbstraction
+BrokenModularization
+Cyclic_DependentModularization
+BrokenHierarchy
+CyclicHierarchy
+DeepHierarchy
+MissingHierarchy
+RebelliousHierarchy

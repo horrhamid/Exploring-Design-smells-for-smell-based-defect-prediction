@@ -1,0 +1,12 @@
+0
+ImperativeAbstraction
+UnnecessaryAbstraction
+UnutilizedAbstraction
+DeficientEncapsulation
+UnexploitedEncapsulation
+Cyclic_DependentModularization
+InsufficientModularization
+Hub_likeModularization
+BrokenHierarchy
+MultipathHierarchy
+WideHierarchy

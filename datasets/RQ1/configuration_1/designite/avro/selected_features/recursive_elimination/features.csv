@@ -1,0 +1,8 @@
+0
+UnnecessaryAbstraction
+UnutilizedAbstraction
+DeficientEncapsulation
+Cyclic_DependentModularization
+InsufficientModularization
+BrokenHierarchy
+WideHierarchy
